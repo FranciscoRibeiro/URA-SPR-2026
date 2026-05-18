@@ -1,0 +1,73 @@
+{
+  "benchmark": "translations_full",
+  "frozen_path": "",
+  "split_family": "icse26",
+  "num_folds": 10,
+  "seed": 0,
+  "split_unit": "task",
+  "source": "icse26",
+  "selectors": {
+    "fit": {
+      "include_incorrect_kinds": [
+        "pre-generated"
+      ],
+      "operator_allowlist": [],
+      "incorrect_per_task": -1,
+      "status_filter": []
+    },
+    "validate": {
+      "include_incorrect_kinds": [
+        "pre-generated"
+      ],
+      "operator_allowlist": [],
+      "incorrect_per_task": -1,
+      "status_filter": []
+    },
+    "test": {
+      "include_incorrect_kinds": [
+        "pre-generated"
+      ],
+      "operator_allowlist": [],
+      "incorrect_per_task": -1,
+      "status_filter": []
+    }
+  },
+  "task_counts": {
+    "fit": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "validate": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "test": [
+      367,
+      367,
+      367,
+      367,
+      367,
+      367,
+      367,
+      367,
+      367,
+      367
+    ]
+  }
+}

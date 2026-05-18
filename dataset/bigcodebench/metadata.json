@@ -1,0 +1,14 @@
+{
+  "benchmark": "bigcodebench",
+  "subset": "full",
+  "num_loaded_tasks": 1140,
+  "num_surviving_tasks": 1136,
+  "num_generated_mutants": 381870,
+  "num_killed_mutants": 349884,
+  "num_fail_mutants": 270384,
+  "num_timeout_mutants": 79500,
+  "num_confounded_variants": 132862,
+  "confounders_enabled": true,
+  "docker_image": "bigcodebench/bigcodebench-evaluate:latest",
+  "seed": 0
+}
